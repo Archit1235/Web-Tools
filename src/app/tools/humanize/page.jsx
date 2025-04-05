@@ -1,7 +1,7 @@
 'use client';
 
-import { Button, Input, Spinner, Textarea } from '@nextui-org/react';
 import { useState } from 'react';
+import { Button, Spinner } from '@nextui-org/react';
 
 const Humanize = () => {
   const [text, setText] = useState('');
